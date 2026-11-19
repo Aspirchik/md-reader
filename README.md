@@ -9,19 +9,6 @@
   Double-click a <code>.md</code> file. Read it. That's it.
 </p>
 
-<p align="center">
-  <a href="https://github.com/mmoselhy/md-reader/releases/latest"><img src="https://img.shields.io/github/v/release/mmoselhy/md-reader?label=download&color=0969da" alt="Latest release"></a>
-  <a href="https://github.com/mmoselhy/md-reader/releases"><img src="https://img.shields.io/github/downloads/mmoselhy/md-reader/total?color=2da44e" alt="Downloads"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6" alt="Windows 10 and 11">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/mmoselhy/md-reader?color=8250df" alt="MIT license"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/mmoselhy/md-reader/releases/download/v0.1.0/mdread_0.1.0_x64-setup.exe"><b>⬇ Download for Windows</b></a> (1.5 MB)
-  &nbsp;·&nbsp; <a href="https://mmoselhy.github.io/md-reader/">Website</a>
-  &nbsp;·&nbsp; <a href="#features">Features</a>
-  &nbsp;·&nbsp; <a href="#keyboard">Shortcuts</a>
-</p>
 
 <p align="center">
   <img src="docs/assets/hero.png" width="860" alt="mdread showing a Markdown document with a table, task list, alert and code block, split between the light and dark themes">
@@ -43,14 +30,9 @@ To *read* a README or some notes on Windows, you usually reach for an editor: No
 - 🛡️ **Safe by default.** Scripts inside Markdown never run, and links to local programs are revealed in Explorer, never executed.
 - 🪶 **Tiny.** A 1.5 MB installer with no account, no telemetry and no settings screen.
 
-## Download
 
-| | |
-|---|---|
-| **[Installer](https://github.com/mmoselhy/md-reader/releases/download/v0.1.0/mdread_0.1.0_x64-setup.exe)** (recommended) | Per-user install, no admin rights. Registers mdread for `.md`, `.markdown`, `.mdown`, `.mkd`, `.mkdn`. |
-| **[Portable .exe](https://github.com/mmoselhy/md-reader/releases/download/v0.1.0/mdread-0.1.0-x64-portable.exe)** | A single file with no install: `mdread.exe notes.md` |
 
-Requires Windows 10 or 11 (WebView2 is built in; the installer fetches it if missing). The builds aren't code-signed yet, so SmartScreen may warn: choose **More info → Run anyway**. Checksums are in every [release](https://github.com/mmoselhy/md-reader/releases).
+Requires Windows 10 or 11 (WebView2 is built in; the installer fetches it if missing). The builds aren't code-signed yet, so SmartScreen may warn: choose **More info → Run anyway**. Checksums are in every 
 
 ## How to open .md files on Windows
 
@@ -100,9 +82,6 @@ The UI is plain HTML, CSS and JS in `src/`, with no bundler and no npm dependenc
 
 </details>
 
-## Roadmap ideas
-
-Find in page · syntax highlighting · table of contents · print/PDF export · macOS and Linux builds. [Open an issue](https://github.com/mmoselhy/md-reader/issues) if you want one of these sooner.
 
 ## License
 
